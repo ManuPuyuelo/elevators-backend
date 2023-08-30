@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const ElevatorStatus = require("../models/elevatorStatus");
-const ElevatorAction = require("../models/elevatorAction");
+const ElevatorStatus = require("../models/elevatorstatus");
+const ElevatorAction = require("../models/elevatoraction");
 
 // Route pour enregistrer une action de l'ascenseur
 router.post("/elevatoractions", (req, res) => {
