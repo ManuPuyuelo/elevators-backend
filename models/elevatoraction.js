@@ -7,4 +7,4 @@ const elevatorActionSchema = new mongoose.Schema({
   actionTimestamp: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model("elevatorAction", elevatorActionSchema);
+module.exports = mongoose.model("elevatoraction", elevatorActionSchema);

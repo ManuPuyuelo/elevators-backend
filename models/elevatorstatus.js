@@ -5,4 +5,4 @@ const elevatorStatusSchema = new mongoose.Schema({
   currentFloor: { type: Number, required: true },
 });
 
-module.exports = mongoose.model("elevatorStatus", elevatorStatusSchema);
+module.exports = mongoose.model("elevatorstatus", elevatorStatusSchema);
